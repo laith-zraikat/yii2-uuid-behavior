@@ -1,0 +1,27 @@
+{
+    "name": "laith-zraikat/yii2-uuid-behavior",
+    "description": "Yii2 behavior for automatically generating and formatting UUIDs for ActiveRecord models",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "behavior", "uuid"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laith Zraikat",
+            "email": "zraikat@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaithZraikat\\UUID\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
